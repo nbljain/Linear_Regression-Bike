@@ -7,15 +7,15 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-* We must model the demand for shared bikes with the available independent variables. The management will use it to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and customer expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.  
-* The dataset that is being used is Bike sharing dataset.
+* We must model the demand for shared bikes with the available independent variables. The management will use it to understand how the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and customer expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.  
+* The dataset that is being used is Bike Sharing dataset.
 Dataset characteristics
-=========================================	
+=========================================
+	
 day.csv have the following fields:
 	
 	- instant: record index
@@ -42,30 +42,26 @@ day.csv have the following fields:
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Fall season has the most bike share count, where as the Spring has the minimum count.
+- The number of counts in 2019 is significantly (33.33%) more than in 2018.
+- The number of counts in Jun, July, Aug and Sep are the most.
+- The count is more when the weather is clear.
+- The r2 score for the train and test datasets were: 0.7395, 0.7752
+- We see, the important features in the final model were:
+    - year, windspeed, spring, summer, winter, Jan, Sep, Sun, LightSnow and Mist.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- python version 3.10
+- Microsoft word
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@nbljain] - feel free to contact me!
 
 
 <!-- Optional -->
